@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Coffee</title>
+    <title>Adobo</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1 style="text-align: center">Coffee recipe</h1>
-    <a href="../index.html">Go back to main page</a>
-    <br />
-    <img
-      src="../images/coffee.jpg"
-      alt="Picture of filipino adobo"
-      width="650px"
-      height="400px"
-    />
+    <div class="heading">
+      <h1>Odin Recipes</h1>
+    </div>
 
-    <br />
-    <h1>Description</h1>
-    <h3>Ingredients</h3>
-    <ul>
-      <li>1 t/2 tablespoon of coffee</li>
-      <li>3 tbps Sugar</li>
-      <li>Hot water</li>
-    </ul>
+    <div class="container-information">
+      <div class="container-dish-title">
+        <p>Coffee</p>
+      </div>
 
-    <h3>Steps</h3>
-    <ol>
-      <li>Prepare the mug. Throw in the coffee powder and sugar.</li>
-      <br />
-      <li>Pour in the hot water</li>
-      <br />
-      <li>Using a spoon, stir until the coffee dissolves.</li>
-    </ol>
+      <img src="../images/coffee.jpg" alt="coffee mug" />
+
+      <div class="description-label">
+        <h1>Description</h1>
+      </div>
+
+      <div class="container-information-long">
+        <h3>Ingredients</h3>
+
+        <div id="container-checklist">
+          <input type="checkbox" name="checkbox-1" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 1 t/2 tablespoon of coffee</label
+          ><br />
+          <input type="checkbox" name="checkbox-2" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 3 tablespoons of sugar</label
+          ><br />
+          <input type="checkbox" name="checkbox-3" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp Hot water</label
+          ><br />
+        </div>
+      </div>
+
+      <div class="container-bottom-column">
+        <h3>Steps</h3>
+        <ol>
+          <li>
+            <p>Prepare the mug. Throw in the coffee powder and sugar.</p>
+          </li>
+
+          <li>
+            <p>Pour in the hot water.</p>
+          </li>
+
+          <li>
+            <p>Using a spoon, stir until the coffee dissolves.</p>
+          </li>
+
+          <li><p>Leave the pan to boil.</p></li>
+        </ol>
+      </div>
+
+      <button
+        type="button"
+        class="button"
+        onclick="location.href='../index.html'"
+      >
+        Go back to main page.
+      </button>
+    </div>
   </body>
 </html>

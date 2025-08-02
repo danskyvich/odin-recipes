@@ -1,0 +1,130 @@
+title {
+    display: none;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* index.html */
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin: 0;
+}
+
+.content-container {
+    border: 2px solid black;
+    background-color: #ebebeb;
+    padding: 20px;
+    width: 375px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -130px 0 0 -250px;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+.button {
+    width: 95%;
+    margin: 10px 10px;
+    padding: 10px;
+    color: #4f4f4f;
+    border-color: 1px groove #363636;
+    border-radius: 8px;
+    
+
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    box-shadow: 3px 5px #636363;
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+}
+
+.button-list {
+    text-align: center;
+}
+
+/* adobo.html */
+
+img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;;
+}
+
+.heading {
+    background-color: white;
+    border-bottom: 2px solid #363636;
+    padding: 15px;
+    text-align: center;
+}
+
+.container-information .container-dish-title {
+    font-size: 18sp;
+    text-align: center;
+
+}
+
+.container-information {
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
+    background-color: white;
+    border: 2px solid #a3a3a3;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.description-label {
+    padding: 4px, 4px, 0, 4px;
+    border-bottom: 2px solid gray;
+}
+
+.container-two-columns {
+    width: 100%;
+    height: 50%;
+}
+
+.container-information-long {
+    text-align: center;
+    margin: 5px;
+}
+
+.container-information-long #container-checklist { 
+    text-align: start;
+    margin: auto;
+    width: 95%;
+    line-height: 190%;
+    color: black;
+}
+
+input[type="checkbox"] {
+    width:17px;
+    height:17px;
+    transition-duration: 0.2s;
+}
+
+input[type="checkbox"]:checked + label.strikethrough{
+    text-decoration:line-through;
+    color: #9e9e9e;
+    transition-duration: 0.2s;
+}
+
+.adobo-pic {
+    height: 500px;
+    width: 700px;
+}
+

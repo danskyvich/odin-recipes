@@ -4,55 +4,108 @@
     <title>Adobo</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1 style="text-align: center">Adobo recipe</h1>
-    <a href="../index.html">Go back to main page</a>
-    <br />
-    <img
-      src="../images/adobo.jpg"
-      alt="Picture of filipino adobo"
-      width="500px"
-      height="400px"
-    />
+    <div class="heading">
+      <h1>Odin Recipes</h1>
+    </div>
 
-    <br />
-    <h1>Description</h1>
-    <h3>Ingredients</h3>
-    <ul>
-      <li>Soy sauce</li>
-      <li>Vinegar</li>
-      <li>Whole black pepper</li>
-      <li>1/2 tablespoon of sugar</li>
-      <li>1 kilo of chicken breast</li>
-      <li>1 <i>Knorr</i> chicken cube</li>
-      <li>1 packet of laurel leaves</li>
-      <li>3 pieces of red peppers</li>
-      <li>3 pieces of cut calamansi</li>
-      <li>3 cloves of garlic, chopped</li>
-    </ul>
+    <div class="container-information">
+      <div class="container-dish-title">
+        <p>Adobo</p>
+      </div>
 
-    <h3>Steps</h3>
-    <ol>
-      <li>
-        Prepare the marinade. If the chicken is too large, cut it into smaller
-        pieces. Soak the meat into a mixture of soy sauce, vinegar, calamansi
-        that has been squished, red peppers, and whole peppercorns. Soak it for
-        atmost 1 hour.
-      </li>
-      <br />
-      <li>
-        After one hour, prepare the stove and the pan. Fry the garlic until
-        brown and then fry the meat. Leave the marinade to the side.
-      </li>
-      <br />
-      <li>
-        If the chicken is brown, pour the marinade in. Add the laurel leaves and
-        Knorr cubes.
-      </li>
-      <br />
-      <li>Leave the pan to boil.</li>
-    </ol>
+      <img src="../images/adobo.jpg" alt="adobo dish" />
+
+      <div class="description-label">
+        <h1>Description</h1>
+      </div>
+
+      <div class="container-information-long">
+        <h3>Ingredients</h3>
+
+        <div id="container-checklist">
+          <input type="checkbox" name="checkbox-1" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp Soy sauce</label
+          ><br />
+          <input type="checkbox" name="checkbox-2" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp Vinegar</label
+          ><br />
+          <input type="checkbox" name="checkbox-3" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp Whole black peppers</label
+          ><br />
+          <input type="checkbox" name="checkbox-4" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 1/2 tablespoon of sugar</label
+          ><br />
+          <input type="checkbox" name="checkbox-5" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 1 kilo of chicken breasts</label
+          ><br />
+          <input type="checkbox" name="checkbox-6" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 1 <i>Knorr</i> chicken cubes</label
+          ><br />
+          <input type="checkbox" name="checkbox-7" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 1 packet of laurel leaves</label
+          ><br />
+          <input type="checkbox" name="checkbox-8" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 3 pieces of red peppers</label
+          ><br />
+          <input type="checkbox" name="checkbox-9" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 3 pieces of cut calamansi</label
+          ><br />
+          <input type="checkbox" name="checkbox-10" id="checkboxes" value="1" />
+          <label for="checkboxes" class="strikethrough"
+            >&nbsp &nbsp &nbsp 3 cloves of chopped garlic</label
+          ><br />
+        </div>
+      </div>
+
+      <div class="container-bottom-column">
+        <h3>Steps</h3>
+        <ol>
+          <li>
+            <p>
+              Prepare the marinade. If the chicken is too large, cut it into
+              smaller pieces. Soak the meat into a mixture of soy sauce,
+              vinegar, calamansi that has been squished, red peppers, and whole
+              peppercorns. Soak it for atmost 1 hour.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              After one hour, prepare the stove and the pan. Fry the garlic
+              until brown and then fry the meat. Leave the marinade to the side.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              If the chicken is brown, pour the marinade in. Add the laurel
+              leaves and Knorr cubes.
+            </p>
+          </li>
+
+          <li><p>Leave the pan to boil.</p></li>
+        </ol>
+      </div>
+
+      <button
+        type="button"
+        class="button"
+        onclick="location.href='../index.html'"
+      >
+        Go back to main page.
+      </button>
+    </div>
   </body>
 </html>

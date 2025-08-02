@@ -3,20 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="recipes/style.css" />
+    <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li>
-        <a href="recipes/adobo.html">Adobo</a>
-      </li>
-      <li>
-        <a href="recipes/omelette.html">Omelette</a>
-      </li>
-      <li>
-        <a href="recipes/coffee.html">Coffee</a>
-      </li>
-    </ul>
+    <div>
+      <div class="content-container">
+        <div class="title">
+          <h1>Odin Recipes</h1>
+        </div>
+        <p>
+          This is a basic table-of-contents type of page! Feel free to navigate
+          the pages below.
+        </p>
+        <div class="button-list">
+          <button
+            type="button"
+            class="button"
+            onclick="location.href='recipes/adobo.html'"
+          >
+            <b>Adobo</b></button
+          ><br />
+          <button
+            type="button"
+            class="button"
+            onclick="location.href='recipes/omelette.html'"
+          >
+            <b>Omelette</b></button
+          ><br />
+          <button
+            type="button"
+            class="button"
+            onclick="location.href='recipes/coffee.html'"
+          >
+            <b>Coffee</b></button
+          ><br />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
